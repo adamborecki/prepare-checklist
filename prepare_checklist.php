@@ -64,7 +64,7 @@ if (($handle = fopen($csv_src, "r")) !== FALSE) {
         $id = "checklistbox$counter";
         $label_open = "<label for='$id'>";
         $label_close = "</label>";
-        $link = $url ? "<br /><a href='$url' class='use-ajax btn btn-info' data-dialog-type='modal' data-dialog-options=\"{&quot;width&quot;:800,&quot;height&quot;:500}\">&raquo; More Info</a>" : "";
+        $link = $url ? "<br /><a href='$url' class='use-ajax' style='padding-left:6px;font-style:italic;' data-dialog-type='modal' data-dialog-options=\"{&quot;width&quot;:800,&quot;height&quot;:500}\">&raquo; More Info</a>" : "";
 
         $checkbox = checkbox($id);
 
