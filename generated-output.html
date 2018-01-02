@@ -1,0 +1,87 @@
+<h3>Finder: Organize</h3>
+<p>Data is often from autocopy or unorganized SD dump folder.</p>
+<ul>
+	<li><input type='checkbox' id='checklistbox4' value='' /> <label for='checklistbox4'>Make sure an organized folder is ready, usually YYMMDDA Concert name to match cuesheet on rec.adamborecki.com</label></li>
+	<li><input type='checkbox' id='checklistbox5' value='' /> <label for='checklistbox5'>Put raw files in "r" subfolder</label></li>
+	<li><input type='checkbox' id='checklistbox6' value='' /> <label for='checklistbox6'>Move any footage out of PRIVATE/ folder (but keep it in "r" subfolder)</label></li>
+	<li><input type='checkbox' id='checklistbox7' value='' /> <label for='checklistbox7'>Move any footage out of DCIM/ folder (but keep it in "r" subfolder)</label></li>
+</ul>
+<h3>FCP: Create Final Cut Library</h3>
+<p>Do this first to generate waveforms / thumbnails in background.</p>
+<ul>
+	<li><input type='checkbox' id='checklistbox10' value='' /> <label for='checklistbox10'><span class='label label-default'>(optional, recommended)</span> Close existing FCP libraries right click</label></li>
+	<li><input type='checkbox' id='checklistbox11' value='' /> <label for='checklistbox11'>New Final Cut Library: save it to an "e" subfolder</label></li>
+	<li><input type='checkbox' id='checklistbox12' value='' /> <label for='checklistbox12'>If Session (audition tape): Pick 1 camera and import just that, CHECK "leave files in place"</label></li>
+	<li><input type='checkbox' id='checklistbox13' value='' /> <label for='checklistbox13'>If Concert: Import everything, CHECK "leave files in place"</label></li>
+</ul>
+<h3>Logic: Create Logic Project</h3>
+<p>As a "Folder", and watch Save Audio Files settings!</p>
+<ul>
+	<li><input type='checkbox' id='checklistbox15' value='' /> <label for='checklistbox15'>New Logic Project</label></li>
+	<li><input type='checkbox' id='checklistbox16' value='' /> <label for='checklistbox16'>Save Logic Project as "Folder" in 'e' Folder of recording, make sure "Save Audio Files to Project is turned on", you'll turn it off later</label></li>
+	<li><input type='checkbox' id='checklistbox17' value='' /> <label for='checklistbox17'>Project Settings: General  --&gt; [ ] (do not) use musical grid</label></li>
+	<li><input type='checkbox' id='checklistbox18' value='' /> <label for='checklistbox18'>Project Settings: Audio  --&gt; 48kHz</label></li>
+	<li><input type='checkbox' id='checklistbox19' value='' /> <label for='checklistbox19'>Project Settings: Assets  --&gt; [ ] (do not) copy audio files into project (*double check this later)</label></li>
+</ul>
+<h3>Logic: Organize Tracks</h3>
+<ul>
+	<li><input type='checkbox' id='checklistbox21' value='' /> <label for='checklistbox21'>Open Browser, Add audio files (by reference, don't copy unless you need SRC)</label></li>
+	<li><input type='checkbox' id='checklistbox22' value='' /> <label for='checklistbox22'>Drag ALL audio files into main arrange window: Create New Tracks</label></li>
+	<li><input type='checkbox' id='checklistbox23' value='' /> <label for='checklistbox23'>Listen to backup audio (H5) to make sure it's acceptable, even if you don't need it</label></li>
+	<li><input type='checkbox' id='checklistbox24' value='' /> <label for='checklistbox24'>Mute (don't delete) dual channel recordings and H5 audio</label></li>
+	<li><input type='checkbox' id='checklistbox25' value='' /> <label for='checklistbox25'>Drag horizontally to make sure regions are chronological</label></li>
+	<li><input type='checkbox' id='checklistbox26' value='' /> <label for='checklistbox26'>Drag vertically to put same input channels are on the same tracks</label></li>
+	<li><input type='checkbox' id='checklistbox27' value='' /> <label for='checklistbox27'>(optional) rename tracks if you want</label></li>
+	<li><input type='checkbox' id='checklistbox28' value='' /> <label for='checklistbox28'>(optional) Add blank midi regions or markers for organization</label></li>
+	<li><input type='checkbox' id='checklistbox29' value='' /> <label for='checklistbox29'>(optional) Re-color regions if you want</label></li>
+</ul>
+<h3>Logic: Mix Audio</h3>
+<ul>
+	<li><input type='checkbox' id='checklistbox31' value='' /> <label for='checklistbox31'>Figure out which audio should be used. Are the main mics hitting the F8 limiter?</label></li>
+	<li><input type='checkbox' id='checklistbox32' value='' /> <label for='checklistbox32'>Split by instrumentation?</label></li>
+	<li><input type='checkbox' id='checklistbox33' value='' /> <label for='checklistbox33'>Denoise?</label><br /><a href='/node/392' class='use-ajax btn btn-info' data-dialog-type='modal' data-dialog-options="{&quot;width&quot;:800,&quot;height&quot;:500}">&raquo; More Info</a></li>
+	<li><input type='checkbox' id='checklistbox34' value='' /> <label for='checklistbox34'>Adjust spot mics?</label></li>
+	<li><input type='checkbox' id='checklistbox35' value='' /> <label for='checklistbox35'>Reverb?</label><br /><a href='/node/393' class='use-ajax btn btn-info' data-dialog-type='modal' data-dialog-options="{&quot;width&quot;:800,&quot;height&quot;:500}">&raquo; More Info</a></li>
+	<li><input type='checkbox' id='checklistbox36' value='' /> <label for='checklistbox36'>EQ?</label><br /><a href='/node/394' class='use-ajax btn btn-info' data-dialog-type='modal' data-dialog-options="{&quot;width&quot;:800,&quot;height&quot;:500}">&raquo; More Info</a></li>
+	<li><input type='checkbox' id='checklistbox37' value='' /> <label for='checklistbox37'>Basic Loudness: Find loudest section of music (not applause): Ozone Maximizer 1-3dB reduction (if not available, use logic limiter max 2dB reduction)</label><br /><a href='/node/395' class='use-ajax btn btn-info' data-dialog-type='modal' data-dialog-options="{&quot;width&quot;:800,&quot;height&quot;:500}">&raquo; More Info</a></li>
+</ul>
+<h3>Logic: Bounce</h3>
+<ul>
+	<li><input type='checkbox' id='checklistbox39' value='' /> <label for='checklistbox39'>Concert:</label></li>
+<ul>
+		<li><input type='checkbox' id='checklistbox40' value='' /> <label for='checklistbox40'>PCM: AIF</label></li>
+		<li><input type='checkbox' id='checklistbox41' value='' /> <label for='checklistbox41'>16bit</label></li>
+		<li><input type='checkbox' id='checklistbox42' value='' /> <label for='checklistbox42'>Sample Rate: 48kHz</label></li>
+		<li><input type='checkbox' id='checklistbox43' value='' /> <label for='checklistbox43'>Normalize: OFF</label></li>
+		<li><input type='checkbox' id='checklistbox44' value='' /> <label for='checklistbox44'>Filename: Perhaps include "v1" or "Jan1 2pm" if versioning will be helpful</label></li>
+</ul>
+	<li><input type='checkbox' id='checklistbox45' value='' /> <label for='checklistbox45'>Session (audition tape)</label></li>
+<ul>
+		<li><input type='checkbox' id='checklistbox46' value='' /> <label for='checklistbox46'>Add markers (shift + Option (alt) + ' I think?)</label></li>
+		<li><input type='checkbox' id='checklistbox47' value='' /> <label for='checklistbox47'>Make sure you export as AIFF (follow above)</label></li>
+		<li><input type='checkbox' id='checklistbox48' value='' /> <label for='checklistbox48'>XLD: check preferences</label></li>
+<ul>
+			<li><input type='checkbox' id='checklistbox49' value='' /> <label for='checklistbox49'>General: Output Format: WAV (sample rate & bit depth same as original)</label></li>
+			<li><input type='checkbox' id='checklistbox50' value='' /> <label for='checklistbox50'>File Naming: Either "Default" or "Custom: %" (I can't remember which is which)</label></li>
+</ul>
+		<li><input type='checkbox' id='checklistbox51' value='' /> <label for='checklistbox51'>XLD: Click & drag to make individual files</label></li>
+</ul>
+</ul>
+<h3><em>Waiting? Type up cuesheet or pick photos</em></h3>
+<h3>iZotope RX: Quality Control</h3>
+<ul>
+	<li><input type='checkbox' id='checklistbox55' value='' /> <label for='checklistbox55'>Open bounced audio file in RX.</label></li>
+	<li><input type='checkbox' id='checklistbox56' value='' /> <label for='checklistbox56'>Look for:</label></li>
+<ul>
+		<li><input type='checkbox' id='checklistbox57' value='' /> <label for='checklistbox57'>No low rumble</label></li>
+		<li><input type='checkbox' id='checklistbox58' value='' /> <label for='checklistbox58'>No high frequency lighting noises</label></li>
+</ul>
+	<li><input type='checkbox' id='checklistbox59' value='' /> <label for='checklistbox59'>Listen for:</label></li>
+<ul>
+		<li><input type='checkbox' id='checklistbox60' value='' /> <label for='checklistbox60'>Clean sound</label></li>
+		<li><input type='checkbox' id='checklistbox61' value='' /> <label for='checklistbox61'>Not too much reverb</label></li>
+		<li><input type='checkbox' id='checklistbox62' value='' /> <label for='checklistbox62'>Spot microphones sound good? Balance okay?</label></li>
+		<li><input type='checkbox' id='checklistbox63' value='' /> <label for='checklistbox63'>Loudness:</label></li>
+<ul>
+			<li><input type='checkbox' id='checklistbox64' value='' /> <label for='checklistbox64'>No pumping / audible compression</label></li>
+			<li><input type='checkbox' id='checklistbox65' value='' /> <label for='checklistbox65'>Loud enough (not too quiet)</label></li>
